@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lets Chat Web App</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    </head>
+    <body>
+        <div id="div1" class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <img id="logo" src="User Icon1.png">
+            <br><br>
+            <label style="color:white; font-size:35px; font-family:cursive;">Welcome To</label><br>
+    <label style="font-family: 'Roboto Slab', serif; color:pink; font-size:70px; font-weight:bold;">Lets Chat</label>
+    <br><label style="font-style:italic; font-size:20px; font-weight:500; color:skyblue;">Beep, Chat & Fly Secure</label>
+        </div>
+        <div id="div2" style="background-color:aquamarine; text-align:center; height:721px;">
+            <label style="margin-top:50px; font-size: 30px; color:blue; font-weight:bold; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Please Login To Lets Chat App</label><br>
+            <br>
+            <input id="username" placeholder="Enter User Name" type="text" style="margin-top:20px; width:300px; font-size:20px; color:teal; border:blueviolet solid 5px; border-radius:5px;">
+            <br>
+            <label style="font-size:30px; font-family:serif; color:crimson; margin-top:150px;">Login</label>
+            <img style="height:50px;" onclick="adduser()" src="https://img.icons8.com/flat_round/64/000000/circled-chevron-right.png"/>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lets Chat Room</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    </head>
+    <body id="bg1">
+        <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:yellow;margin-left:350px;font-size:50px;">Let's Chat</h1>
+        <button id="logout" onclick="logout()"><img src="https://img.icons8.com/fluent/48/000000/export.png"/>Logout</button>
+        <br>
+        <div id="output"> </div>
+        <center>
+        <div id="msg_div">
+            <label style="color:blue;font-size:20px;">Message: </label>
+            <br>
+            <input id="msg" class="form-control" placeholder="Enter Message Here">
+            <br>
+            <br>
+            <button id="send" class="btn btn-warning" onclick="send()">Send</button>
+        </div>
+    </center>
+        <script src="message_page.js"></script>
+    </body>
+    </html>

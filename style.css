@@ -1,0 +1,123 @@
+#div1 {
+    background-image: url("Background1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    height:721px;
+}
+#logo {
+    margin-top:100px;
+    border: aqua solid;
+    border-radius: 200px;
+    width:300px;
+    height:300px;
+    border-width:5px;
+}
+#next-btn {
+    margin-top:20px; 
+    margin-right:20px !important; 
+    border:none; 
+    background:none;
+}
+#bg {
+    background-image: url("Background2.png");
+    background-position:left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.labels {
+    color:purple;
+    font-size:25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#roomname {
+    width:1000px;
+    border-radius:5px;
+    border-width:0px;
+    height:50px;
+    padding-left:20px;
+    border:salmon solid;
+    color:chocolate;
+}
+#roomnames {
+    background-color: rgba(255, 192, 203, 0.678);
+    color:blue;
+    font-weight:bold;
+    font-family: 'Sansita Swashed', cursive;
+}
+#addroom {
+    color:red;
+    font-size:20px;
+    background-color:rgb(247, 192, 10);
+    margin-top:20px;
+    border: navy solid;
+    border-width:5px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: bold;
+}
+#log_out {
+    background-color:aqua; 
+    color:brown; 
+    font-weight:bold; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+    border: brown solid;
+    border-width:5px;
+    margin-left:1000px;
+    margin-top:20px;
+}
+#logout {
+    background-color:aqua; 
+    color:brown; 
+    font-weight:bold; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+    border: brown solid;
+    border-width:5px;
+    margin-left:1350px;
+    width:165px;
+    margin-bottom:80px;
+}
+#rooms {
+    color:blue;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border:orangered solid 5px;
+    border-radius: 10px;
+    font-size:30px;
+    width:1000px;
+    margin:50px;
+}
+#user {
+    color:crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:400;
+}
+#bg1 {
+    background-image: url("Background 3.png");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#output {
+	padding: 10px; 
+	width:80%;
+	background: rgba(255,255,255,0.8);
+    border-radius: 15px;
+    text-align: left;
+    margin-bottom: 70px;
+    margin-left:125px;
+}
+#send {
+    color:red;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:monospace;
+}
+#msg_div {
+    border:aqua solid 5px;
+    margin:20px;
+    padding:5px;
+}
